@@ -19,14 +19,16 @@ This project implements the "Hard" difficulty requirements, focusing on data int
 
 ### Installation
 1. **Prepare Environment**:
-   ```bash
+   
+```bash
    cp .env.example .env
-  ```
+```
 
 2. **Launch System**:
-  ```
+
+```
   docker-compose up --build
-  ```
+```
 
 The application will be available at http://localhost:8080
 
