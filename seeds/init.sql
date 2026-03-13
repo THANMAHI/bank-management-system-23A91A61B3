@@ -2,8 +2,8 @@
 CREATE TABLE IF NOT EXISTS events (
     event_id UUID PRIMARY KEY NOT NULL,
     aggregate_id VARCHAR(255) NOT NULL,
-    aggregate_type VARCHAR(255) NOT NULL, -- e.g., 'BankAccount'
-    event_type VARCHAR(255) NOT NULL,    -- e.g., 'AccountCreated'
+    aggregate_type VARCHAR(255) NOT NULL, 
+    event_type VARCHAR(255) NOT NULL,    
     event_data JSONB NOT NULL,
     event_number INTEGER NOT NULL,
     timestamp TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),

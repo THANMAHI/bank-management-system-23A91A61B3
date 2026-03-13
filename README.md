@@ -71,3 +71,6 @@ The application will be available at http://localhost:8080
 - **/seeds**: SQL initialization scripts for Docker.
 - **submission.json**: Evaluation metadata.
 - **docker-compose.yml**: Multi-container orchestration.
+
+## Demon Video
+[Video](https://drive.google.com/file/d/1H1PEqkQmMeBOavIuJ7Vhs9fZNmp2JmUW/view?usp=sharing)
